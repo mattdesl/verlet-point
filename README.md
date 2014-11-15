@@ -55,11 +55,11 @@ Creates a new point with an optional `position` and other parameters. If `positi
 
 #### `p.place(pos)`
 
-This is a utility to "place" the point in space without creating any forces. This sets `position` and `previous` to the given `pos`. 
+This is a utility to "place" the point in space without creating any forces. This sets `position` and `previous` to the given `pos`. Returns `this` for chaining.
 
 #### `p.addForce(force)`
 
-Adds a force to the point by subtracting `force` from `previous`.
+Adds a force to the point by subtracting `force` from `previous`. Returns `this` for chaining.
 
 #### `p.position`
 #### `p.previous`
