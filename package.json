@@ -1,0 +1,41 @@
+{
+  "name": "verlet-point",
+  "version": "1.0.0",
+  "description": "a point utility for verlet physics systems",
+  "main": "2d.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "gl-matrix": "^2.1.0"
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "verlet",
+    "physics",
+    "2d",
+    "3d",
+    "integration",
+    "point",
+    "vertex",
+    "body",
+    "position",
+    "acceleration"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/verlet-point.git"
+  },
+  "homepage": "https://github.com/mattdesl/verlet-point",
+  "bugs": {
+    "url": "https://github.com/mattdesl/verlet-point/issues"
+  }
+}
