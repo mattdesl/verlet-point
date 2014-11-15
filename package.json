@@ -10,7 +10,8 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
-    "gl-matrix": "^2.1.0"
+    "gl-vec2": "^1.0.0",
+    "gl-vec3": "^1.0.2"
   },
   "devDependencies": {
     "tape": "^3.0.3"
