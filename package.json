@@ -1,6 +1,6 @@
 {
   "name": "verlet-point",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a point utility for verlet physics systems",
   "main": "2d.js",
   "license": "MIT",
