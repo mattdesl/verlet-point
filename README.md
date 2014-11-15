@@ -34,8 +34,8 @@ Some other utility functions might be added to the Point prototype at a later ti
 By default, assumes 2D and points with `[x, y]`. You can require an explicit dimension like so: 
 
 ```js
-var Constraint2D = require('verlet-constraint/2d') //points [x, y]
-var Constraint3D = require('verlet-constraint/3d') //points [x, y, z]
+var Point2D = require('verlet-point/2d') //points [x, y]
+var Point3D = require('verlet-point/3d') //points [x, y, z]
 ```
 
 ## Usage
