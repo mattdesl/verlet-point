@@ -48,8 +48,8 @@ Creates a new point with an optional `position` and other parameters. If `positi
 
 - `position` the position vector, defaults to zero. 
 - `previous` the previous vector, useful for creating forces. If not specified, this will default to `position` value.
-- `mass` the mass of this point, defaults to 1.0. A mass of zero is considered "unmovable"
 - `acceleration` the acceleration vector of the point, defaults to zero
+- `mass` the mass of this point, defaults to 1.0. A mass of zero is considered "unmovable"
 
 #### `p.place(pos)`
 
