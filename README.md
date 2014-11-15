@@ -21,7 +21,8 @@ var p = {
     position: [25, 25],
     previous: [25, 25],
     acceleration: [0, 0],
-    mass: 1
+    mass: 1     //defaults to 1.0
+    radius: 25  //defaults to 0.0
 }
 
 //add force by modifying previous position
@@ -49,7 +50,8 @@ Creates a new point with an optional `position` and other parameters. If `positi
 - `position` the position vector, defaults to zero. 
 - `previous` the previous vector, useful for creating forces. If not specified, this will default to `position` value.
 - `acceleration` the acceleration vector of the point, defaults to zero
-- `mass` the mass of this point, defaults to 1.0. A mass of zero is considered "unmovable"
+- `mass` the mass of this point, defaults to 1.0. A mass of zero is considered "unmovable."
+- `radius` the radius of this point, only useful for collision testing. Defaults to zero.
 
 #### `p.place(pos)`
 
